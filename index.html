@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechConnect 2025 - Inovação, IA e o Futuro da Tecnologia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Animation -->
+    <div class="bg-animation">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="container">
+            <div class="logo">
+                <i class="fas fa-microchip"></i>
+                <span>TechConnect</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#speakers">Palestrantes</a></li>
+                <li><a href="#schedule">Programação</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-main">TechConnect</span>
+                        <span class="title-year">2025</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Inovação, Inteligência Artificial e o Futuro da Tecnologia</h2>
+                    <p class="hero-description">
+                        Junte-se aos maiores especialistas em tecnologia para uma experiência imersiva 
+                        que moldará o futuro da inovação. 3 dias de conhecimento, networking e inspiração.
+                    </p>
+                    
+                    <!-- Countdown Timer -->
+                    <div class="countdown-container">
+                        <h3>O evento começa em:</h3>
+                        <div class="countdown" id="countdown">
+                            <div class="countdown-item">
+                                <span class="countdown-number" id="days">00</span>
+                                <span class="countdown-label">Dias</span>
+                            </div>
+                            <div class="countdown-item">
+                                <span class="countdown-number" id="hours">00</span>
+                                <span class="countdown-label">Horas</span>
+                            </div>
+                            <div class="countdown-item">
+                                <span class="countdown-number" id="minutes">00</span>
+                                <span class="countdown-label">Min</span>
+                            </div>
+                            <div class="countdown-item">
+                                <span class="countdown-number" id="seconds">00</span>
+                                <span class="countdown-label">Seg</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hero-cta">
+                        <a href="#register" class="cta-button primary">
+                            <i class="fas fa-rocket"></i>
+                            Garanta sua vaga agora
+                        </a>
+                        <a href="#about" class="cta-button secondary">
+                            <i class="fas fa-play"></i>
+                            Saiba mais
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="tech-visual">
+                        <div class="hologram-container">
+                            <div class="hologram-line line-1"></div>
+                            <div class="hologram-line line-2"></div>
+                            <div class="hologram-line line-3"></div>
+                            <div class="hologram-circle"></div>
+                            <div class="hologram-particles">
+                                <div class="particle"></div>
+                                <div class="particle"></div>
+                                <div class="particle"></div>
+                                <div class="particle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre o Evento</h2>
+                <p class="section-subtitle">Uma experiência única que conecta o presente ao futuro</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Data</h3>
+                            <p>20 a 22 de novembro de 2025</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Local</h3>
+                            <p>Auditório Central da Universidade de Salvador</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Público</h3>
+                            <p>Estudantes, profissionais de TI, empreendedores e entusiastas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-benefits">
+                    <h3>Por que participar?</h3>
+                    <ul class="benefits-list">
+                        <li><i class="fas fa-check"></i> Palestras com especialistas renomados</li>
+                        <li><i class="fas fa-check"></i> Workshops práticos de IA e inovação</li>
+                        <li><i class="fas fa-check"></i> Networking com profissionais da área</li>
+                        <li><i class="fas fa-check"></i> Demonstrações de tecnologias emergentes</li>
+                        <li><i class="fas fa-check"></i> Certificado de participação</li>
+                        <li><i class="fas fa-check"></i> Material exclusivo e brindes</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speakers Section -->
+    <section id="speakers" class="speakers">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Palestrantes</h2>
+                <p class="section-subtitle">Conheça os especialistas que vão inspirar sua jornada</p>
+            </div>
+            
+            <div class="speakers-grid">
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="https://media.licdn.com/dms/image/v2/D4D12AQET8oDUaPp9Lg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1724338947668?e=2147483647&v=beta&t=WgjFXwFbDMQtajI8D20nqirl0fj2qsNzEaPA7FeUrio" alt="Dr. Ana Silva">
+                        <div class="speaker-overlay">
+                            <div class="speaker-social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="speaker-info">
+                        <h3>Dr. Ana Silva</h3>
+                        <p class="speaker-title">Diretora de IA - TechCorp</p>
+                        <p class="speaker-topic">"O Futuro da Inteligência Artificial na Medicina"</p>
+                    </div>
+                </div>
+
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face" alt="Carlos Mendes">
+                        <div class="speaker-overlay">
+                            <div class="speaker-social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="speaker-info">
+                        <h3>Carlos Mendes</h3>
+                        <p class="speaker-title">CTO - InnovateLab</p>
+                        <p class="speaker-topic">"Blockchain e Web3: A Nova Era Digital"</p>
+                    </div>
+                </div>
+
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="https://assets.propmark.com.br/uploads/2023/12/Cristina---01.jpg" alt="Marina Costa">
+                        <div class="speaker-overlay">
+                            <div class="speaker-social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="speaker-info">
+                        <h3>Marina Costa</h3>
+                        <p class="speaker-title">Fundadora - QuantumTech</p>
+                        <p class="speaker-topic">"Computação Quântica: Revolucionando o Futuro"</p>
+                    </div>
+                </div>
+
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face" alt="Roberto Santos">
+                        <div class="speaker-overlay">
+                            <div class="speaker-social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="speaker-info">
+                        <h3>Roberto Santos</h3>
+                        <p class="speaker-title">Lead Engineer - MetaVerse Solutions</p>
+                        <p class="speaker-topic">"Realidade Virtual e Metaverso: Além dos Limites"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="schedule">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Programação</h2>
+                <p class="section-subtitle">Três dias intensos de conhecimento e inovação</p>
+            </div>
+            
+            <div class="schedule-tabs">
+                <button class="tab-button active" data-day="day1">Dia 1</button>
+                <button class="tab-button" data-day="day2">Dia 2</button>
+                <button class="tab-button" data-day="day3">Dia 3</button>
+            </div>
+
+            <div class="schedule-content">
+                <div class="schedule-day active" id="day1">
+                    <div class="schedule-item">
+                        <div class="schedule-time">09:00</div>
+                        <div class="schedule-info">
+                            <h4>Abertura e Keynote</h4>
+                            <p>Dr. Ana Silva - "O Futuro da Inteligência Artificial"</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">10:30</div>
+                        <div class="schedule-info">
+                            <h4>Workshop: Introdução à IA</h4>
+                            <p>Hands-on com ferramentas de Machine Learning</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">14:00</div>
+                        <div class="schedule-info">
+                            <h4>Painel: Ética em IA</h4>
+                            <p>Discussão sobre responsabilidade e futuro da tecnologia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="schedule-day" id="day2">
+                    <div class="schedule-item">
+                        <div class="schedule-time">09:00</div>
+                        <div class="schedule-info">
+                            <h4>Blockchain e Web3</h4>
+                            <p>Carlos Mendes - "A Nova Era Digital"</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">11:00</div>
+                        <div class="schedule-info">
+                            <h4>Workshop: Smart Contracts</h4>
+                            <p>Desenvolvimento prático de contratos inteligentes</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">15:00</div>
+                        <div class="schedule-info">
+                            <h4>Networking Session</h4>
+                            <p>Conecte-se com outros profissionais</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="schedule-day" id="day3">
+                    <div class="schedule-item">
+                        <div class="schedule-time">09:00</div>
+                        <div class="schedule-info">
+                            <h4>Computação Quântica</h4>
+                            <p>Marina Costa - "Revolucionando o Futuro"</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">10:30</div>
+                        <div class="schedule-info">
+                            <h4>Realidade Virtual</h4>
+                            <p>Roberto Santos - "Além dos Limites"</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">14:00</div>
+                        <div class="schedule-info">
+                            <h4>Encerramento</h4>
+                            <p>Premiação e networking final</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galeria</h2>
+                <p class="section-subtitle">Uma prévia do que te espera no TechConnect 2025</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&h=300&fit=crop" alt="Auditório moderno">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop" alt="Workshop de IA">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://lec.com.br/wp-content/uploads/2020/02/leceditora_lec_image_639.jpeg" alt="Networking">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop" alt="Tecnologia">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&h=300&fit=crop" alt="Apresentação">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=300&fit=crop" alt="Palestrantes">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register" class="register">
+        <div class="container">
+            <div class="register-content">
+                <div class="register-info">
+                    <h2>Garanta sua vaga agora!</h2>
+                    <p>Vagas limitadas. Não perca esta oportunidade única de se conectar com o futuro da tecnologia.</p>
+                    
+                    <div class="register-benefits">
+                        <div class="benefit">
+                            <i class="fas fa-ticket-alt"></i>
+                            <span>Acesso a todas as palestras</span>
+                        </div>
+                        <div class="benefit">
+                            <i class="fas fa-certificate"></i>
+                            <span>Certificado de participação</span>
+                        </div>
+                        <div class="benefit">
+                            <i class="fas fa-coffee"></i>
+                            <span>Coffee breaks inclusos</span>
+                        </div>
+                        <div class="benefit">
+                            <i class="fas fa-gift"></i>
+                            <span>Kit exclusivo TechConnect</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="register-form">
+                    <form id="registrationForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Nome completo" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="E-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Telefone" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="category" name="category" required>
+                                <option value="">Selecione sua categoria</option>
+                                <option value="student">Estudante</option>
+                                <option value="professional">Profissional de TI</option>
+                                <option value="entrepreneur">Empreendedor</option>
+                                <option value="enthusiast">Entusiasta de Tecnologia</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-rocket"></i>
+                            Inscrever-se Agora
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Perguntas Frequentes</h2>
+                <p class="section-subtitle">Tire suas dúvidas sobre o TechConnect 2025</p>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Quando e onde acontece o evento?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>O TechConnect 2025 acontece de 20 a 22 de novembro de 2025, no Auditório Central da Universidade XYZ. O evento terá início às 9h de cada dia.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Qual o valor da inscrição?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Estudantes: R$ 150 | Profissionais: R$ 300 | Empreendedores: R$ 250. O valor inclui acesso a todas as palestras, workshops, coffee breaks e kit exclusivo.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Haverá certificado de participação?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim! Todos os participantes receberão certificado digital de participação, que será enviado por e-mail após o evento.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Posso cancelar minha inscrição?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim, cancelamentos podem ser feitos até 7 dias antes do evento com reembolso integral. Após esse período, será cobrada taxa de 20%.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Haverá transmissão online?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Não. O TechConnect 2025 é um evento exclusivamente presencial para garantir a melhor experiência de networking e interação.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="section-subtitle">Dúvidas? Estamos aqui para ajudar!</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p>contato@techconnect2025.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>(71) 9999-9999</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>Auditório Central - Universidade Estacio<br>R. Xingu, 179 - Stiep</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horário de Atendimento</h4>
+                            <p>Segunda a Sexta: 9h às 18h</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <h4>Siga-nos</h4>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/okairos_web"><i class="fab fa-instagram"></i></a>                       
+                        <a href="https://www.linkedin.com/in/joão-victor-braga-reis-51ba17246"><i class="fab fa-linkedin"></i></a>
+                                                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-microchip"></i>
+                    <span>TechConnect 2025</span>
+                </div>
+                <p>&copy; 2025 TechConnect. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
